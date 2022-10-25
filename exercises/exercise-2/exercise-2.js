@@ -70,3 +70,27 @@ let hogwarts = [
     occupation: "Teacher",
   },
 ];
+
+let [
+  stOne,
+  stTwo,
+  stThree,
+  stFour,
+  stFive,
+  stSix,
+  stSeven,
+  stEight,
+  stNine,
+  stTen,
+] = hogwarts;
+
+// ----- Task 1
+console.log(stOne.firstName, stOne.lastName);
+console.log(stTwo.firstName, stTwo.lastName);
+console.log(stThree.firstName, stThree.lastName);
+console.log(stNine.firstName, stNine.lastName);
+console.log(stTen.firstName, stTen.lastName);
+
+// ----- Task 2
+
+console.log(stTen.firstName, stTen.lastName);
